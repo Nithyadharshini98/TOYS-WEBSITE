@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"/>
+    <title>MAGIZH TOYS</title>
+</head>
+<body>
+    <header>
+     <marquee behavior="" direction="">Happy shopping!!!</marquee>
+     <div class="icon">
+    <img src="./assets/logotoy.png" alt="logotoy" class="icon">
+     <h1>MAGIZH<span>TOYS</span></h1>
+     </div>
+     <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="contacts.html">Contacts</a>
+      </nav>  
+   </header>
+   <main>
+      <section class="hero">
+      <h2>Welcome to MAGIZH TOYS</h2>
+      <p>Join and play with us</p>
+      <h1><b>EVERY CHILD IS AN ARTIST!!</b></h1>
+      <a href="services.html" class="btn">EXPLORE MORE</a>
+         </section>
+  </main>
+  <section class="highlights">
+  <h2>Our Highlights</h2>
+  <div class="card-container">
+    <div class="card">
+      <img src="./assets/toy-blocks.png" alt="blocks">
+      <h3>EDUCATIONAL TOYS</h3>
+      <p>Experience the thrill of speed with our durable, colorful toy cars.</p>
+      <button>Explore</button>
+    </div>
+
+    <div class="card">
+       <img src="./assets/teddy-bear.png" alt=" teddy bear">
+      <h3>SOFT TOYS</h3>
+      <p>Soft, safe, and adorable — perfect for your little one’s collection.</p>
+      <button>Explore</button>
+    </div>
+
+    <div class="card">
+      <img src="./assets/rocking-horse.png" alt= "Building Blocks">
+      <h3>WOODEN TOYS</h3>
+      <p>Encourage creativity with our premium-quality building blocks.</p>
+      <button>Explore</button>
+    </div>
+  </div>
+</section>
+   <footer>
+  <div class="footer-content">
+    <p>&copy; 2025 Webby Toys. All rights reserved.</p>
+    <div id="icons">
+        <div class="icon"><i class="fa-brands fa-instagram"></i></div>
+        <div class="icon"><i class="fa-brands fa-facebook"></i></div>
+        <div class="icon"><i class="fa-brands fa-twitter"></i></div>
+        <div class="icon"><i class="fa-brands fa-telegram"></i></div>
+        <div class="icon"><i class="fa-brands fa-youtube"></i></div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
+<style>
+    /* ---------- Global Styles ---------- */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background-color: #f8f9fa;
+      color: #333;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    /* ---------- Header ---------- */
+    header {
+      background-color: #0077b6;
+      color: rgb(231, 99, 23);
+      padding: 20px 10%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+
+    }
+    
+    .icon img {
+  width: 80px;          /* smaller size */
+  height: auto;
+  transform: rotate(90deg);  /* rotate image to correct position */
+  transition: transform 0.3s ease;
+}
+
+   marquee {
+      width: 100%;
+      color: yellow;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    header h1 {
+      font-size: 1.8em;
+      letter-spacing: 1px;
+    }
+
+    header h1 span {
+      color: #ffdd00;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #ffdd00;
+    }
+
+    /* ---------- Hero Section ---------- */
+    .hero {
+      background: url('banner.jpg') no-repeat center/cover;
+      color: blue;
+      text-align: center;
+      padding: 100px 20px;
+      background-color: rgba(167, 217, 236, 0.582);
+    }
+
+    .hero h2 {
+      font-size: 2em;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 1.2em;
+      margin-bottom: 15px;
+    }
+
+    .hero h1 {
+      font-size: 2em;
+      color: orange;
+      margin-bottom: 25px;
+    }
+
+    .btn {
+      background-color: orange;
+      color: #333;
+      padding: 10px 20px;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: background-color 0.3s, transform 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #ffee80;
+      transform: scale(1.05);
+    }
+
+    /* ---------- Highlights Section ---------- */
+    .highlights {
+      text-align: center;
+      padding: 60px 20px;
+      background-color: #e9ecef;
+    }
+
+    .highlights h2 {
+      font-size: 2em;
+      margin-bottom: 40px;
+      color: #0077b6;
+    }
+
+    .card-container {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      padding: 20px;
+      width: 250px;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .card img {
+      width: 50%;
+      border-radius: 8px;
+    }
+
+    .card h3 {
+      margin: 15px 0 10px;
+      color: #0077b6;
+    }
+
+    .card p {
+      color: #555;
+      font-size: 0.95em;
+      margin-bottom: 15px;
+    }
+
+    .card button {
+      background-color: #0077b6;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .card button:hover {
+      background-color: #005f8a;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+    }
+
+    /* ---------- Footer ---------- */
+    footer {
+      background-color: #0077b6;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    .footer-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+
+    #icons {
+      display: flex;
+      justify-content: space-around;
+      gap: 15px;
+
+    }
+
+    .social-icons img {
+      width: 28px;
+      height: 28px;
+      filter: brightness(0) invert(1);
+      transition: transform 0.3s;
+    }
+
+    #icons :hover {
+      transform: scale(1.2);
+    }
+  </style>

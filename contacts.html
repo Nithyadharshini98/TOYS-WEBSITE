@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAGIZH TOYS</title>
+</head>
+<body>
+    <header>
+     <marquee behavior="" direction="">Happy shopping!!!</marquee>
+     <div class="icon">
+        <div class=""></div>
+     <img src="" alt="" class="">
+     </div>
+     <h1>MAGIZH<span>TOYS</span></h1>
+     <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="contacts.html">Contacts</a>
+      </nav>  
+   </header>
+ <main class="contact-section">
+    <h2>Get in Touch</h2>
+    <p>We’d love to hear from you! Fill out the form below or reach us directly.</p>
+
+    <div class="contact-container">
+      <!-- Contact Form -->
+      <form class="contact-form">
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Enter your name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Enter your email" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" rows="5" placeholder="Type your message..." required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+
+      <!-- Contact Details -->
+      <div class="contact-details">
+        <h3>Contact Information</h3>
+        <p><strong>Email:</strong> info@magizhtoys.com</p>
+        <p><strong>Phone:</strong> +91 98765 43210</p>
+        <p><strong>Address:</strong> 123 Toy Street, Coimbatore, India</p>
+
+        <h3>Find Us</h3>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d250644.7683524301!2d76.80241834872741!3d11.014261487869842!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba859af2f971cb5%3A0x2fc1c81e183ed282!2sCoimbatore%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1762233491850!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Magizh Toys. All Rights Reserved.</p>
+    <div class="footer-links">
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms</a>
+      <a href="#">Help</a>
+    </div>
+  </footer>
+</body>
+</html>
+<style>
+   * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background-color: rgba(167, 217, 236, 0.582);
+      color: rgb(14, 1, 1);
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    /* ---------- Header ---------- */
+    header {
+      background-color: #0077b6;
+      color: white;
+      padding: 20px 10%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+
+    }
+    
+    .icon img {
+  width: 80px;          /* smaller size */
+  height: auto;
+  transform: rotate(90deg);  /* rotate image to correct position */
+  transition: transform 0.3s ease;
+}
+
+   marquee {
+      width: 100%;
+      color: yellow;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    header h1 {
+      font-size: 1.8em;
+      letter-spacing: 1px;
+    }
+
+    header h1 span {
+      color: #ffdd00;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #ffdd00;
+    }
+/* --- Contact Section --- */
+.contact-section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.contact-section h2 {
+  color: #0077b6;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+/* --- Contact Form --- */
+.contact-form {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  width: 320px;
+}
+
+.contact-form label {
+  display: block;
+  text-align: left;
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 2px solid #ffd5cc;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #0077b6;
+  outline: none;
+}
+
+.contact-form button {
+  margin-top: 15px;
+  padding: 10px 15px;
+  width: 100%;
+  background-color: #0077b6;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.contact-form button:hover {
+  background-color: #e85a4f;
+}
+
+/* --- Contact Details --- */
+.contact-details {
+  max-width: 320px;
+  text-align: left;
+}
+
+.contact-details h3 {
+  color: #0077b6;
+  margin-bottom: 10px;
+}
+
+.contact-details p {
+  margin: 5px 0;
+}
+
+.contact-details img {
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 10px;
+  border: 2px solid #ffd5cc;
+}
+
+/* --- Footer --- */
+footer {
+  background-color: #0077b6;
+  color: white;
+  text-align: center;
+  padding: 15px 10px;
+  margin-top: 40px;
+}
+
+.footer-links a {
+  color: white;
+  margin: 0 8px;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  color: #fff;
+}
+
+/* --- Responsive --- */
+@media (max-width: 768px) {
+  .contact-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+</style>

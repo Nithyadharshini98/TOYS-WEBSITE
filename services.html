@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAGIZH TOYS</title>
+</head>
+<body>
+    <style>
+        * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background-image: url("./assets/bgkids.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-color: #0076b65e;
+      color: rgb(14, 1, 1);
+    }
+   
+
+
+    a {
+      text-decoration: none;
+    }
+
+    /* ---------- Header ---------- */
+    header {
+      background-color: #0077b6;
+      color: white;
+      padding: 20px 10%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+
+    }
+    
+    .icon img {
+  width: 80px;          /* smaller size */
+  height: auto;
+  transform: rotate(90deg);  /* rotate image to correct position */
+  transition: transform 0.3s ease;
+}
+
+   marquee {
+      width: 100%;
+      color: yellow;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    header h1 {
+      font-size: 1.8em;
+      letter-spacing: 1px;
+    }
+
+    header h1 span {
+      color: #ffdd00;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #ffdd00;
+    }
+
+
+    h2 {
+      text-align: center;
+      font-size: 18px;
+      color:#fff0ed;
+    }
+
+    /* Image styling */
+    .toy-gallery {
+      display: flex;
+      justify-content: center;
+      background-size: cover;
+      gap: 20px;
+      margin: 30px 0;
+    }
+
+    .toy-gallery img {
+      width: 250px;
+      height: 200px;
+      border-radius: 15px;
+      border: 3px solid #0077b6;
+      
+      transition: transform 0.3s;
+    }
+
+    .toy-gallery img:hover {
+      transform: scale(1.1);
+    }
+
+    /* Lists */
+    .features {
+      max-width: 500px;
+      margin: 0 auto;
+      ;
+    }
+    
+
+    li {
+      padding: 5px 0;
+      font-size: 16px;
+      color: bisque;
+    }
+      h3{
+        color:#fff0ed
+      }
+    /* Table styling */
+    table {
+      width: 80%;
+      margin: 30px auto;
+      border-collapse: collapse;
+      font-size: 16px;
+      text-align: center;
+    }
+     
+    th, td {
+      border: 1px solid #0077b6;
+      padding: 10px;
+    }
+
+    th {
+      background-color:#0077b6;
+      color: white;
+    }
+
+    tr:nth-child(even) {
+      background-color: #fff0ed;
+    }
+  </style>
+</head>
+<body>
+   <header>
+     <marquee behavior="" direction="">Happy shopping!!!</marquee>
+     <div class="icon">
+        <div class=""></div>
+     <img src="" alt="" class="">
+     </div>
+     <h1>MAGIZH<span>TOYS</span></h1>
+     <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="contacts.html">Contacts</a>
+      </nav>  
+   </header>
+  
+  <h2>Bringing smiles to kids with safe, creative, and colorful toys!</h2>
+
+  <!-- Image Section -->
+  <div class="toy-gallery">
+    <img src="./assets/teddy.jpg" alt="Soft Toy">
+    <img src="./assets/bblocks.jpg " alt="Building Blocks">
+    <img src="./assets/woodentoy.jpg" alt="Wooden Toy">
+  </div>
+
+  <!-- List Section -->
+  <div class="features">
+    <h3>Top 3 Best-Selling Toys</h3>
+    <ol>
+      <li><b>Colorful Building Blocks</b></li>
+      <li><b>Soft Plush Animals</b></li>
+      <li><b>Puzzle Sets</b></li>
+    </ol>
+  </div>
+
+  <!-- Table Section -->
+  <h2 style="text-align:center;">Toy Price List</h2>
+  <table>
+    <tr>
+      
+      <th>Category</th>
+      <th>Price</th>
+    </tr>
+    <tr>
+      
+      <td>Soft Toys</td>
+      <td>₹199-₹999</td>
+    </tr>
+    <tr>
+      
+      <td>Wooden Toys</td>
+      <td>₹99-₹599</td>
+    </tr>
+    <tr>
+      
+      <td>Educational Toys</td>
+      <td>₹199-₹799</td>
+    </tr>
+  </table>
+</body>
+</html>

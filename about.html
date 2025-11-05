@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAGIZH TOYS</title>
+</head>
+<body>
+   <header>
+     <marquee behavior="" direction="">Happy shopping</marquee>
+     <div class="icon">
+        <div class=""></div>
+     <img src="" alt="" class="">
+     </div>
+     <h1>MAGIZH<span>TOYS</span></h1>
+     <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="contacts.html">Contacts</a>
+      </nav>  
+   </header>
+<!-- services Section -->
+  <section class="services-section">
+    <h2>ABOUT US</h2>
+    <p>Explore our wide range of creative and educational toys designed to bring joy to kids everywhere!</p>
+
+    <div class="services-container">
+      <div class="service-card">
+        <h3>MISSION</h3>
+        <p>Our mission is to create toys that inspire children to explore the world around them, learn new skills, and build meaningful connections with others. We're dedicated to fostering creativity, imagination, and curiosity in young minds, and we believe that our toys can make a positive impact on the lives of children everywhere.</p>
+        
+      </div>
+
+      <div class="service-card">
+        <h3>VISION</h3>
+        <p>Our vision is to become the most trusted name in children's toys by providing high-quality, innovative, and sustainable products that promote positive development in young minds. We want to inspire children to dream big, explore fearlessly, and reach for the stars.</p>
+        
+      </div>
+     
+    </div>
+  </section>
+
+  <section class="about-section">
+  
+
+    <div class="pricing-section">
+      <div class="pricing-card">
+          <img src="./assets/design.png" alt="design ">
+        <h3>DESIGN</h3>
+        <p>We're committed to design new toys for kids that promote positive development & growth in young minds. Our toys are carefully crafted to provide children with the tools they need to thrive.</p>
+        
+      </div>
+
+      <div class="pricing-card popular">
+        <img src="./assets/safety.png" alt="safety ">
+        <h3>SAFETY</h3>
+        <p>All of our toys are rigorously tested to ensure that they meet or exceed the highest safety standards. Child safety is our top priority while making toys for young boys and girls.</p>
+       
+      </div>
+
+      <div class="pricing-card">
+        <img src="./assets/eco.png" alt="eco ">
+        <h3>ECO-FRIENDLY</h3>
+        <p>We promote sustainability through our use of solar energy, eco-friendly FSC certified materials, recycled and recyclable materials and responsible waste management.</p>
+       
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Magizh Toys. All Rights Reserved.</p>
+    <div class="footer-links">
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms</a>
+      <a href="#">Help</a>
+    </div>
+  </footer>
+</body>
+</html>
+<style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background-color: #0076b65e;
+      color: rgb(14, 1, 1);
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    /* ---------- Header ---------- */
+    header {
+      background-color: #0077b6;
+      color: white;
+      padding: 20px 10%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+
+    }
+    
+    .icon img {
+  width: 80px;          /* smaller size */
+  height: auto;
+  transform: rotate(90deg);  /* rotate image to correct position */
+  transition: transform 0.3s ease;
+}
+
+   marquee {
+      width: 100%;
+      color: yellow;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    header h1 {
+      font-size: 1.8em;
+      letter-spacing: 1px;
+    }
+
+    header h1 span {
+      color: #ffdd00;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #ffdd00;
+    }
+
+/* --- Services Section --- */
+.services-section {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.services-section h2 {
+  color: #0077b6;
+}
+
+.services-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.service-card {
+  background: linear-gradient(135deg, #fff 0%, #ffeae4 100%);
+  border-radius: 12px;
+  width: 280px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.service-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.service-card h3 {
+  color: #0077b6;
+  margin-top: 15px;
+}
+
+.service-card p {
+  font-size: 0.95rem;
+  margin: 10px 0 15px;
+}
+
+.service-card button {
+  background-color: #0077b6;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.service-card button:hover {
+  background-color: #e85a4f;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.15);
+}
+
+/* --- Pricing Section --- */
+.about-section {
+  
+  text-align: center;
+  padding: 50px 20px;
+  background: linear-gradient(120deg, #fff8f2 0%, #ffe1d6 100%);
+}
+.pricing-section{
+  display: flex;
+  margin: 10px;
+  justify-content: space-around;
+
+}
+.pricing-section h2 {
+  color: #0077b6;
+  margin-bottom: 10px;
+}
+
+.pricing-table {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.pricing-card {
+  background: white;
+  border-radius: 12px;
+  width: 260px;
+  padding: 25px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.pricing-card.popular {
+  /* border: 3px solid #0077b6; */
+  transform: scale(1.05);
+}
+
+.pricing-card h3 {
+  color: #0077b6;
+  font-size: 1.3rem;
+}
+img {
+      width: 50%;
+      border-radius: 8px;
+    }
+.price {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.pricing-card ul {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+  margin: 10px 0 15px;
+}
+
+.pricing-card li {
+  padding: 5px 0;
+  border-bottom: 1px solid #f3dcd6;
+}
+
+.pricing-card button {
+  background-color:#0077b6 ;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 100%;
+  transition: background 0.3s;
+}
+
+.pricing-card button:hover {
+  background-color: #0077b6;
+}
+
+.pricing-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.15);
+}
+
+/* --- Footer --- */
+footer {
+  background-color:#0077b6;
+  color: white;
+  text-align: center;
+  padding: 15px 10px;
+  margin-top: 40px;
+}
+
+.footer-links a {
+  color: white ;
+  margin: 0 8px;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  color: #fff;
+}
+
+/* --- Responsive --- */
+@media (max-width: 768px) {
+  .services-container,
+  .pricing-table {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+</style>
